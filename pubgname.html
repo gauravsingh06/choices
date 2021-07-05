@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>PUBG Clan Name Generator</title>
+</head>
+
+<body>
+    <header>
+        <h1>PUBG Clan Name Generators</h1>
+    </header>
+    <div class="main">
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <button id="generate">Generate</button>
+        <table>
+            <tr>
+                <td id="result1">SouL</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result1)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result2">TSM</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result2)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result3">8BIT</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result3)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result4">Zeus</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result4)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result5">Nova</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result5)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result6">GodL</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result6)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result7">BTR</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result7)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result8">RRQ</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result8)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result9">FRAG</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result9)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result10">EVOS</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result10)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result11">IND</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result11)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result12">PAIN</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result12)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+            <tr>
+                <td id="result13">JUNGLI</td>
+                <td id="copybtn"><button onclick="if (!window.__cfRLUnblockHandlers) return false; copy_data(result13)"
+                        id="copy" data-cf-modified-3d376e3be21210fafa05c98e-="">Copy</button></td>
+            </tr>
+        </table>
+    </div>
+
+<script>
+    let generate = document.getElementById("generate");
+    generate.addEventListener("click", gen);
+
+    function gen() {
+        let name = document.getElementById("name").value;
+        if (!name) {
+            alert("Please Enter Your Name");
+            return;
+        }
+        let result1 = document.getElementById("result1");
+        result1.innerHTML = "SouLãƒ»" + name;
+        let result2 = document.getElementById("result2");
+        result2.innerHTML = "TSMãƒ»" + name;
+        let result3 = document.getElementById("result3");
+        result3.innerHTML = "8BITãƒ»" + name;
+        let result4 = document.getElementById("result4");
+        result4.innerHTML = "Zeusãƒ»" + name;
+        let result5 = document.getElementById("result5");
+        result5.innerHTML = "Novaãƒ»" + name;
+        let result6 = document.getElementById("result6");
+        result6.innerHTML = "GodLãƒ»" + name;
+        let result7 = document.getElementById("result7");
+        result7.innerHTML = "BTRãƒ»" + name;
+        let result8 = document.getElementById("result8");
+        result8.innerHTML = "RRQãƒ»" + name;
+        let result9 = document.getElementById("result9");
+        result9.innerHTML = "FRAGãƒ»" + name;
+        let result10 = document.getElementById("result10");
+        result10.innerHTML = "EVOSãƒ»" + name;
+        let result11 = document.getElementById("result11");
+        result11.innerHTML = "INDãƒ»" + name;
+        let result12 = document.getElementById("result12");
+        result12.innerHTML = "PAINãƒ»" + name;
+        let result13 = document.getElementById("result13");
+        result13.innerHTML = "JUNGLIãƒ»" + name;
+    }
+
+    function copy_data(containerid) {
+        var range = document.createRange();
+        range.selectNode(containerid);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();
+        alert("Name Copied");
+    }
+</script>
+</body>
+
+</html>
